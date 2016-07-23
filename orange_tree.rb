@@ -29,11 +29,7 @@ class OrangeTree
 	end
 
 	def any_oranges?
-		if @oranges.length > 0
-			true
-		else
-			false
-		end
+		@oranges.length > 0
 
 	end
 
